@@ -1,0 +1,21 @@
+Instructions for the Exception Project
+
+This assumes you havepleted Program Challenge 1 of Chapter 15 (Employee and PreoductionWorker Classes). Modify the Employee and Production Worker classes so they throw exceptions when the following error occur:
+•The Employee class should throw an exception named InvalidEmployeeNumber when it recieves an employee number that is less that 0 or greated than 9999.
+•The ProductionWorker class should throw an exception named InvalidShift when it receives an invalid shift.
+•The ProductionWorker class should throw an exception named InvalidPayRate when it receives a negative number for the hourly pay rate.
+Write a driver program that demonstrates how each of these exceptions conditions works.
+
+
+Employee class
+Design a class named Employee. The class should keep the following information:
+•Employee name
+•Employee number
+•Hire date
+Write one or more constructors, and the appropriate accessor and mutator functions, for the class.
+
+ProductionWorker class
+Write a class named ProductionWorker that is derived from the Employee class. The ProductionWorker class should have member variables to hold the following information:
+•Shift (an integer)
+•Hourly pay rate (a double)
+The day shift is 1, and the night shift is 2. Write one or more constructors, and the appropriate accesor and mutator functions, for the class.
